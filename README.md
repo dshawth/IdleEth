@@ -8,6 +8,6 @@ This program helps you get the most out of your system.  It automatically starts
 
 ---
 
-I am just getting this off the ground, but uploaded the initial compiled beta.
+I am just getting this off the ground.  The initial compiled beta is included in releases.  The source will follow in the next few hours.
 
-This project is starting in [AutoHotkey](https://autohotkey.com/) but will likely move to C# in the future.
+This project is starting in [AutoHotkey](https://autohotkey.com/) but will likely move to a more efficient language in the future.
