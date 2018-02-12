@@ -8,6 +8,18 @@ This program helps you get the most out of your system.  It automatically starts
 
 ---
 
+## Updates
+
 I am just getting this off the ground.  The initial compiled beta is included in releases.  The source will follow in the next few hours.
 
 This project is starting in [AutoHotkey](https://autohotkey.com/) but will likely move to a more efficient language in the future.
+
+---
+
+## Upcoming Features
+
+Logging, link to your selected mining pool, finished mining time with notification, reference section
+
+---
+
+## References
