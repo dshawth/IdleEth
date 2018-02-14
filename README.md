@@ -18,7 +18,15 @@ This project is starting in [AutoHotkey](https://autohotkey.com/) but will likel
 
 ## Upcoming Features
 
-Logging, link to your selected mining pool, finished mining time with notification, reference section
+* Logging and notifications of how much time mined when mining finishes
+* Links to your selected mining pool and wallet
+
+
+---
+
+## Change Log
+
+Coming soon!
 
 ---
 
