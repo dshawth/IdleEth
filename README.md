@@ -4,15 +4,7 @@
 
 > Automatically mine Ethereum when your system idles
 
-This program helps you get the most out of your system.  It automatically starts mining Ethereum using [Ethminer](https://github.com/ethereum-mining/ethminer) when you are not using your computer and automatically stops mining when you resume.
-
----
-
-## Updates
-
-I am just getting this off the ground.  The initial compiled beta is included in releases.  The source will follow in the next few hours.
-
-This project is starting in [AutoHotkey](https://autohotkey.com/) but will likely move to a more efficient language in the future.
+This program helps you get the most out of your system.  It automatically starts mining Ethereum using [Ethminer](https://github.com/ethereum-mining/ethminer) with [Ethermine](https://ethermine.org/) when you are not using your computer and automatically stops mining when you resume.  Designed with the Windows 10 gamer in mind.
 
 ---
 
