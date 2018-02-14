@@ -23,3 +23,8 @@ Logging, link to your selected mining pool, finished mining time with notificati
 ---
 
 ## References
+* Scripting Language: [AutoHotkey](https://autohotkey.com/)
+* Default Miner: [Ethminer](https://github.com/ethereum-mining/ethminer)
+* Default Mining Pool: [Ethermine](https://ethermine.org/)
+* ASCII Art: [Patorjk](http://patorjk.com/software/taag/)
+* Icon: [Icon Scout](https://iconscout.com/icon/ethereum-3)
