@@ -31,7 +31,10 @@
   MinerPID = 0
   
   //default idle time
-  IdleTimeSeconds=60
+  IdleTimeSeconds = 60
+  
+  //to track how much time spent mining
+  MineTimeSeconds = 0
   
   //wallets
   DevWallet = 70eaf0909e96463bddc2d099cbaa0052cddffaf2 //1
@@ -302,8 +305,10 @@ MainTimer:
         GoSub, Mine
       }
     } Else { //already mining, check if it is time to stop
+      //increment mine time
+      MineTimeSeconds += 1
       If (IdleSeconds < IdleTimeSeconds) {
-        TrayTip IdleEth, Auto Mining Stopped!, 1, 17
+        TrayTip IdleEth, Auto Mining Stopped after %MineTimeSeconds% seconds!, 1, 17
         GoSub, Stop
       } Else { //not time to stop, check if miner died
         Process, Exist, %MinerPID%
