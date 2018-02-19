@@ -12,8 +12,6 @@
   //folder
   FileCreateDir, %A_WorkingDir%\IdleEthFiles
   //files | run: extract, do not overwrite | compile: package the current file
-  //read me
-  FileInstall, readme.txt, %A_WorkingDir%\IdleEthFiles\readme.txt, 0
   //config
   FileInstall, config.dat, %A_WorkingDir%\IdleEthFiles\config.dat, 0
   //miner
