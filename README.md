@@ -10,15 +10,18 @@ This program helps you get the most out of your system.  It automatically starts
 
 ## Upcoming Features
 
-* Logging and notifications of how much time mined when mining finishes
-* Links to your selected mining pool and wallet
-
+* Hours, minutes, seconds for mining messages
+* Logging of mining time, messages, crashes, etc
+* Tray icon menu options and minimize to tray option
+* Application black list 
 
 ---
 
 ## Change Log
 
-Coming soon!
+### Version 0.2.1
+* Added: Auto mining stopped message now includes an elapsed time in seconds.
+* Added: Pool and wallet links for currently selected wallet.
 
 ---
 

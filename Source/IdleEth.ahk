@@ -162,6 +162,12 @@
   //save wallet
   Gui, Add, Button, x+m x100 w70 gSaveWalletButton, Save
   
+  //view links
+  Gui, Font, Underline
+  Gui, Add, Text, xm cBlue gViewMiner, Pool
+  Gui, Add, Text, x+m cBlue gViewWallet, Wallet
+  Gui, Font, Norm
+  
   //separator
   Gui, Add, Text, xm y+m w250 h1 0x7
   
@@ -170,7 +176,7 @@
   Gui, Add, DropDownList, w100 vGPUList gGPUListEvent Choose%GPUType%, Nvidia (CUDA)|AMD (OpenCL)
   
   //show the gui
-  Gui, Show, w270 h370
+  Gui, Show, w270 h385
   
   //start the main timer
   SetTimer, MainTimer, 1000
@@ -263,6 +269,39 @@ SaveWalletButton:
   //save the settings
   GoSub, Persist
 Return
+
+
+//link actions
+ViewMiner:
+  //wallet
+  If (ActiveWalletNumber = 1) {
+    ActiveWalletAddress = %DevWallet%
+  } Else If (ActiveWalletNumber = 2) {
+    ActiveWalletAddress = %ClubWallet%
+  } Else If (ActiveWalletNumber = 3) {
+    ActiveWalletAddress = %LibraWallet%
+  } Else {
+    ActiveWalletAddress = %CustomWallet%
+  }
+
+  Run https://ethermine.org/miners/%ActiveWalletAddress%
+Return
+
+ViewWallet:
+  //wallet
+  If (ActiveWalletNumber = 1) {
+    ActiveWalletAddress = %DevWallet%
+  } Else If (ActiveWalletNumber = 2) {
+    ActiveWalletAddress = %ClubWallet%
+  } Else If (ActiveWalletNumber = 3) {
+    ActiveWalletAddress = %LibraWallet%
+  } Else {
+    ActiveWalletAddress = %CustomWallet%
+  }
+  
+  Run https://www.etherchain.org/account/0x%ActiveWalletAddress%
+Return
+
 
 GPUListEvent:
   //update control variable from GUI

@@ -1,0 +1,5 @@
+IdleTimeSeconds	60
+CustomWallet	70eaf0909e96463bddc2d099cbaa0052cddffaf2
+ActiveWalletNumber	1
+Worker	default
+GPUType	1
