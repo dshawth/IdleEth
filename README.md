@@ -12,16 +12,13 @@ Get the most out of your Windows 10 gaming computer by automatically mining Ethe
 
 * Currently transitioning the from AHK to C#.
 
----
 
 ## Upcoming Features
-
 * Hours, minutes, seconds for mining messages
 * Logging of mining time, messages, crashes, etc
 * Tray icon menu options and minimize to tray option
 * Application black list 
 
----
 
 ## Change Log
 
@@ -29,7 +26,6 @@ Get the most out of your Windows 10 gaming computer by automatically mining Ethe
 * Added: Auto mining stopped message now includes an elapsed time in seconds.
 * Added: Pool and wallet links for currently selected wallet.
 
----
 
 ## References
 * Scripting Language: [AutoHotkey](https://autohotkey.com/) (Used for prototype versions 0.2.*)
