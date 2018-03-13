@@ -1,0 +1,14 @@
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\bin\Debug\IdleEth.exe.config
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\bin\Debug\IdleEth.exe
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\bin\Debug\IdleEth.pdb
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.csprojResolveAssemblyReference.cache
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.Properties.Resources.resources
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.csproj.GenerateResource.Cache
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.csproj.CoreCompileInputs.cache
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.exe
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.pdb
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\bin\Debug\IdleEth.exe.manifest
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\bin\Debug\IdleEth.application
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.exe.manifest
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.application
+C:\Users\Daniel.Hawthorne\source\repos\IdleEth\IdleEth\obj\Debug\IdleEth.Form1.resources

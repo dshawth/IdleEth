@@ -1,0 +1,47 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IdleEth.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IdleWaitTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="Worker" Type="System.String" Scope="User">
+      <Value Profile="(Default)">default</Value>
+    </Setting>
+    <Setting Name="CustomWallet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">70eaf0909e96463bddc2d099cbaa0052cddffaf2</Value>
+    </Setting>
+    <Setting Name="ActiveWallet" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="GPUType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MinerURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/ethereum-mining/ethminer/releases/download/v0.13.0/ethminer-0.13.0-Windows.zip</Value>
+    </Setting>
+    <Setting Name="MinerZip" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ethminer-0.13.0-Windows.zip</Value>
+    </Setting>
+    <Setting Name="MinerFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">bin\\ethminer.exe</Value>
+    </Setting>
+    <Setting Name="MinerSHA1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">F5D363B3009C4E9FE69F6E16208A90EE593285FC</Value>
+    </Setting>
+    <Setting Name="Wallets" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;70eaf0909e96463bddc2d099cbaa0052cddffaf2&lt;/string&gt;
+  &lt;string&gt;96af7cdad701ad7feb2d5c445c591dd1dd7773a1&lt;/string&gt;
+  &lt;string&gt;97f78c05b7a59465be2e9640baa4e13fa35cce0d&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="AutoMine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ManualMine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
